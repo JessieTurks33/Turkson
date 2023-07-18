@@ -1,0 +1,19 @@
+ # include <stdio.h>
+ 
+  int main()
+  {
+  double c;
+  double f;
+  
+  printf("Enter the temperature value in celsius: ");
+  scanf("%lf", &c);
+
+  printf("Enter the temperature valuein fahrenheit: ");
+  scanf("%lf", &f);
+  
+   double sum = c+f;
+  printf("This is your temperature: %lf\n");
+
+  return (0);
+  }
+
