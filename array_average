@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main() {
+    int size;
+    double average = 0;
+
+    // Prompt the user to enter the size of the array
+    printf("Enter the size of the array: ");
+    scanf("%d", &size);
+
+    // Declare the array with the specified size
+    int array[size];
+
+    // Prompt the user to enter the elements of the array
+    printf("Enter the elements of the array:\n");
+    for (int i = 0; i < size; i++) {
+        printf("Element %d: ", i + 1);
+        scanf("%d", &array[i]);
+    }
+
+    // Calculate the sum of the array elements
+    int sum = 0;
+    for (int i = 0; i < size; i++) {
+        sum += array[i];
+    }
+
+    // Calculate the average
+    average = (double)sum / size;
+
+    // Display the average
+    printf("The average of the array elements is: %.2lf\n", average);
+
+    return 0;
+}
+
