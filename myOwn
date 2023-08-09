@@ -1,13 +1,15 @@
 #include <stdio.h>
 
-int main(){
+int main() {
     char myChar = 'J';
-    printf("The character is: %c\n, myChar);
+    printf("The character is: %c\n", myChar);
 
     int k = 39;
-    int a ;
+    int a;
 
-    scanf("%d, a");
-    printf("This is an integer: %d", k+a);
+    scanf("%d", &a);
+
+    printf("This is an integer: %d", k + a);
     return 0;
 }
+
