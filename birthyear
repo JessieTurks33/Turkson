@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    const int birthyear = 1997;
+    printf("This is my birth year: %d\n", birthyear);
+    return 0;
+}
+
